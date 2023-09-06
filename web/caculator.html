@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="CalServlet" method="get">
+            <div>
+                <span>First:</span>
+                <input name="first" value="">
+            </div>
+            <div>
+                <span>Second:</span>
+                <input name="second" value="">
+            </div>
+            <div>
+                <select name="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit" value=""> Compute </button>
+            </div>
+            <div>
+                <input name="result">
+            </div>
+        </form>
+    </body>
+</html>
